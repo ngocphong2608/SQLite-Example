@@ -1,7 +1,9 @@
-package com.example.ngocphong.sqliteexample;
+package com.example.ngocphong.sqliteexample.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.ngocphong.sqliteexample.R;
 
 public class MainActivity extends AppCompatActivity {
 
