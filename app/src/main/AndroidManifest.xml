@@ -19,6 +19,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.RunActivity"></activity>
+        <receiver android:name=".location.LocationReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.ttphong.runtracker.ACTION_LOCATION"/>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

@@ -15,7 +15,7 @@ import android.widget.Toast;
 public class RunManager {
     private static final String TAG = "RunManager";
     public static final String ACTION_LOCATION =
-            "com.bignerdranch.android.runtracker.ACTION_LOCATION";
+            "com.ttphong.runtracker.ACTION_LOCATION";
     private static RunManager sRunManager;
     private Context mAppContext;
     private LocationManager mLocationManager;
