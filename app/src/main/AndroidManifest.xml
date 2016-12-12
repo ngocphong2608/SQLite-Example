@@ -21,7 +21,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <receiver android:name=".location.LocationReceiver"
+        <!--<receiver android:name=".location.LocationReceiver"-->
+        <receiver android:name=".location.TrackingLocationReceiver"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.ttphong.runtracker.ACTION_LOCATION"/>
